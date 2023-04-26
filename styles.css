@@ -36,10 +36,10 @@ h1 {
   white-space: nowrap;
   transform-origin: 0 0;
   color: var(--color-accent);
+  pointer-events: none;
 }
 
 .title {
-  /* mix-blend-mode: multiply; */
   mix-blend-mode: exclusion;
 
 }

@@ -1,0 +1,51 @@
+@import url(keyframes.css);
+
+.floating-slow-rtl {
+    animation: floating-cloud-rtl 26s 0s ease-in infinite;
+    -webkit-animation: floating-cloud-rtl 26s 0s ease-in infinite;
+}
+
+.floating-nomal-rtl {
+    animation: floating-cloud-rtl 16s -3s linear infinite;
+    -webkit-animation: floating-cloud-rtl 16s -3s linear infinite;
+}
+
+.floating-fast-rtl {
+    animation: floating-cloud-rtl 16s -1s linear infinite;
+    -webkit-animation: floating-cloud-rtl 16s -1s linear infinite;
+}
+
+.floating-slow-ltr {
+    animation: floating-cloud-ltr 26s 0.2s ease-in infinite;
+    -webkit-animation: floating-cloud-ltr 26s 0.2s ease-in infinite;
+}
+
+.floating-nomal-ltr {
+    animation: floating-cloud-ltr 16s -1s linear infinite;
+    -webkit-animation: floating-cloud-ltr 16s -1s linear infinite;
+}
+
+.floating-fast-ltr {
+    animation: floating-cloud-ltr 16s -3s linear infinite;
+    -webkit-animation: floating-cloud-ltr 16s -3s linear infinite;
+}
+
+.floating-nomal-custom1 {
+    animation: floating-cloud-custom1 36s -3s ease-in-out infinite;
+    -webkit-animation: floating-cloud-custom1 36s -3s ease-in-out infinite;
+}
+
+.floating-nomal-custom2 {
+    animation: floating-cloud-custom2 30s -3s linear infinite;
+    -webkit-animation: floating-cloud-custom2 30s -5s linear infinite;
+}
+
+.floating-nomal-custom3 {
+    animation: floating-cloud-custom3 30s -1s linear infinite;
+    -webkit-animation: floating-cloud-custom3 30s -1s linear infinite;
+}
+
+.floating-nomal-custom4 {
+    animation: floating-cloud-custom3 23s -8s linear infinite;
+    -webkit-animation: floating-cloud-custom3 23s -8s linear infinite;
+}

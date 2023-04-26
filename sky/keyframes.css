@@ -1,0 +1,91 @@
+@keyframes floating-cloud-ltr {
+    0% {
+        margin-left: -600px;
+    }
+
+    100% {
+        margin-left: 100%;
+    }
+}
+
+@keyframes floating-cloud-rtl {
+    0% {
+        margin-left: 100%;
+    }
+
+    100% {
+        margin-left: -600px;
+    }
+}
+
+@keyframes floating-cloud-custom1 {
+    0% {
+        margin-left: -600px;
+    }
+
+    50% {
+        margin-left: 45%;
+    }
+
+    100% {
+        margin-left: 100%;
+    }
+}
+
+@keyframes floating-cloud-custom2 {
+    0% {
+        margin-left: -600px;
+    }
+
+    25% {
+        margin-left: 35%;
+    }
+
+    50% {
+        margin-left: 55%;
+    }
+
+    100% {
+        margin-left: 100%;
+    }
+}
+
+@keyframes floating-cloud-custom3 {
+    0% {
+        margin-left: 100%;
+    }
+
+    25% {
+        margin-left: 95%;
+    }
+
+    50% {
+        margin-left: 75%;
+    }
+
+    75% {
+        margin-left: 20%;
+    }
+
+    100% {
+        margin-left: -600px;
+    }
+}
+
+@keyframes floating-cloud-custom4 {
+    0% {
+        margin-left: 100%;
+    }
+
+    33% {
+        margin-left: 75%;
+    }
+
+    75% {
+        margin-left: 20%;
+    }
+
+    100% {
+        margin-left: -600px;
+    }
+}

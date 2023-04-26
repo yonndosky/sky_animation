@@ -1,0 +1,93 @@
+/*雲的共同特性*/
+.cloud-module {
+    position: absolute;
+}
+
+
+/*雲的造型*/
+.cloud {
+    background: #fff;
+    width: 160px;
+    border-radius: 200px;
+    position: relative;
+    height: 40px;
+    margin: 30px 0 30px 0;
+}
+
+.cloud:after {
+    content: "";
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background: #fff;
+    display: inline-block;
+    top: -40px;
+    right: 20px;
+    border-radius: 100%;
+}
+
+.cloud:before {
+    content: "";
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background: #fff;
+    display: block;
+    top: -25px;
+    left: 20px;
+    border-radius: 100%;
+}
+
+/*烏雲的造型*/
+.rain-cloud {
+    background: #5b5050;
+    width: 160px;
+    border-radius: 200px;
+    position: relative;
+    height: 40px;
+    margin: 30px 0 30px 0;
+}
+
+.rain-cloud:after {
+    content: "";
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background: #5b5050;
+    display: inline-block;
+    top: -40px;
+    right: 20px;
+    border-radius: 100%;
+}
+
+.rain-cloud:before {
+    content: "";
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background: #5b5050;
+    display: block;
+    top: -25px;
+    left: 20px;
+    border-radius: 100%;
+}
+
+.XL-cloud {
+    transform: scale(1.5);
+}
+
+.L-cloud {
+    transform: scale(1.2);
+}
+
+.M-cloud {
+    transform: scale(1.0);
+}
+
+.S-cloud {
+    transform: scale(0.8);
+}
+
+.XS-cloud {
+    transform: scale(0.5);
+}
